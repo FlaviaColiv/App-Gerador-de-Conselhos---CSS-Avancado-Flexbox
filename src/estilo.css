@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+* {
+  font-family: 'Manrope', sans-serif;
+}
+
+body {
+  font-weight: 800;
+  background-color: var(--background-color) ;
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+}
+
+h2 {
+  color: var(--advice-dice-color);
+  font-size: 0.8em;
+  letter-spacing: 5px;
+}
+
+a {
+  color: var(--text-color) ;
+}
+
+main {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+}
+
+.box {
+  background-color: var(--advice-card-color) ;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  width: 500px;
+  border-radius: 10px;
+  
+}
+
+
+p {
+  margin-top: 5%;
+  text-align: justify;
+  padding: 5%;
+}
+
+.autoria  { 
+  font-size: 0.7em;
+  display: flex;
+  align-self: flex-end;
+  margin-right: 70px;
+}
+
+.autor {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  text-align: end;
+}
+
+.botao {
+  text-align: center;
+  margin-top: 7%;
+}
+
+.under  {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--advice-dice-color);
+  transform: translateY(50%);
+  text-align: center;
+}
+
+.under:hover {
+  color: #53FFAB;
+  cursor: pointer;
+  box-shadow: 0 5px 15px var(--advice-dice-color);
+}
+
+
+
+

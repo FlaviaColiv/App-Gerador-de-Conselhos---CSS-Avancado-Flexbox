@@ -1,0 +1,11 @@
+@media(max-width: 768px) {
+  main {
+    padding-inline: 50px;
+    width: 386px;
+  }
+
+  main p {
+    font-size: 21px;
+    padding: 26px;
+  }
+}
