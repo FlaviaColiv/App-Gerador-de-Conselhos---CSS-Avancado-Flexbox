@@ -1,11 +1,25 @@
 @media(max-width: 768px) {
+
+  body {
+    height: 100vh;
+    min-width: 100px;
+  }
   main {
-    padding-inline: 50px;
-    width: 386px;
+    padding-inline: 20px;
+    width: 80%;
+    height: 100vh;
   }
 
   main p {
-    font-size: 21px;
-    padding: 26px;
+    font-size: 0.85em;
+    padding: 10px;
+  }
+
+  .box {
+    max-width: 300px;
+  }
+
+  .box p {
+    max-width: 100%;
   }
 }
